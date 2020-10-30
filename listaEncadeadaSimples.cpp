@@ -20,6 +20,8 @@ struct ElementoDaLista_Simples {
 
 int main() {
 
+	setlocale(LC_ALL, "Portuguese");
+
 	int op, num, pos, c;
 	while (1) 	{
 		op = menu();
